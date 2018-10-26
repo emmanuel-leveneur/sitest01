@@ -11,7 +11,7 @@ class CSVReader {
     }
 
     public static function generateArrayFromCSVString($csv_string, $delimiter = ";") {
-        $csv_array = explode(PHP_EOL, $csv_string);
+        $csv_array = explode("\n", $csv_string);
         $rows = array_map(function($value) use ($delimiter) {
             return str_getcsv($value, $delimiter);
         }, $csv_array);
