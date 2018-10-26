@@ -2,46 +2,7 @@
 <html>
 <head>
     <title>TEST01</title>
-    <style>
-        table {
-            border-collapse: collapse;
-        }
-
-        table, th, td {
-            border: 1px solid black;
-        }
-
-        th, td {
-            padding: 15px;
-            text-align: left;
-        }
-
-/*        .nav ul li {
-            list-style: none;
-        }*/
-
-        .nav ul li, .nav ul {
-            list-style: none;
-            padding: 0;
-            margin: 0;
-        }
-
-        .nav {
-            height: 30px;
-            line-height: 30px;
-            background: #000000;
-            margin-bottom: 15px;
-        }
-
-        .nav ul li a {
-            display: block;
-            float: left;
-            padding-left: 30px;
-            color: #FFFFFF;
-            text-decoration: none;
-            text-transform: uppercase;
-        }
-    </style>
+    <link rel="stylesheet" href="css/default.css">
 </head>
 <body>
     <?php include('menu.html'); ?>
