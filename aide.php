@@ -7,7 +7,7 @@
 <body>
     <?php include('menu.html'); ?>
     <p>
-        L'application suivante affiche un jeu de donnée dans une page HTML. Ce jeu de donnée est récupéré depuis un fichier au format CSV. <br>
+        L'application suivante affiche un jeu de donnée dans une page HTML. Ce jeu de donnée est récupéré par le biais d'une API. Le jeu de donnée est stocké dans un fichier au format CSV. <br>
         Dans cette mis en situation, vous devez modifier l'application pour répondre aux demandes métiers ci-dessous.
     </p>
     <ul>
