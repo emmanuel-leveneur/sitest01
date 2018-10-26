@@ -78,7 +78,7 @@
         function reloadNombreRaccordableByCodePostal() {
             $.ajax({
                 method: "POST",
-                url: "http://172.16.66.162:193/test01/api/index.php",
+                url: "api/index.php",
                 dataType: "json",
                 data: {
                     "fonction": "getNombreRaccordableByCodePostal"
